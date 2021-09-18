@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="projet2.css" />
+  <title>Reservia</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!--partie header avec logo et menu-->
+  <header>
+    <div id="site">
+      <div class="logo">
+        <img src="projet-2-openclassroom\logo\Reservia.svg" alt="logo de reservia" />
+      </div>
+      <nav class="menu">
+        <ul>
+          <li class="hebergements_menu">
+            <a href="#Hebergements">Hébergements</a>
+          </li>
+          <li class="activite_menu"><a href="#activite">Activités</a></li>
+          <li class="inscription_menu">
+            <a href="#inscription">S'inscrire</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--Partie de la page qui commence par le slogan-->
+  <div class="slogan">
+    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    <p>En plein centre ville ou en pleine nature</p>
+  </div>
+  <!--partie barre de recherche-->
+  <div id="section_recherche">
+    <div class="bar_de_recherche">
+      <div class="logo_gps">
+        <i class="fas fa-map-marker-alt fa-lg"></i>
+      </div>
+      <input type="search" class="type-search" placeholder="Marseille, France" name="recherche_location" />
+      <button class="rechercher"><span>Rechercher</span></button>
+      <div class="logo_loupe"><i class="fas fa-search"></i></div>
+    </div>
+  </div>
+  <!--partie filtres-->
+  <div id="section_filtres">
+    <div class="titre_filtres">
+      <p>Filtres</p>
+    </div>
+    <div class="filtres">
+      <div class="bouton">
+        <div class="circle-icon-filter"><i class="fas fa-money-bill-wave"></i>
+        </div>
+        <h3>Economique</h3>
+      </div>
+      <div class="bouton">
+        <div class="circle-icon-filter">
+          <i class="fas fa-male"></i>
+        </div>
+        <h3>Familial</h3>
+      </div>
+      <div class="bouton">
+        <div class="circle-icon-filter">
+          <i class="fas fa-heart"></i>
+        </div>
+        <h3>Romantique</h3>
+      </div>
+      <div class="bouton">
+        <div class="circle-icon-filter">
+          <i class="fas fa-dog"></i>
+        </div>
+        <h3>Animaux autorisés</h3>
+      </div>
+    </div>
+  </div>
+  <!--partie slogan 2-->
+  <div class="slogan2">
+    <div class="cercle_information">
+      <i class="fas fa-info" aria-hidden="true"></i>
+      <h3 class="titre_slogan">
+        Plus de 500 logements sont disponibles dans cette ville
+      </h3>
+    </div>
+  </div>
+  <!--Hébergements à Marseille-->
+  <main id="hebergementsamarseille">
+    <section class="marseille">
+      <h2 class="titresectionmarseille">Hébergements à Marseille</h2>
+      <article class="exemplehebergement">
+        <div class="hotel">
+          <a href="#">
+            <img src="projet-2-openclassroom\image\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="cannebière" class="image_hotel" />
+            <h3>Auberge la Cannebière</h3>
+            <p>Nuit à partir de <strong>25€</strong></p>
+            <div class="etoiles">
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star grey" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <div class="hotel">
+          <a href="#">
+            <img src="projet-2-openclassroom\image\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel du port" class="image_hotel" />
+            <h3>Hôtel du port</h3>
+            <p>Nuit à partir de 52<strong>€</strong></p>
+            <div class="etoiles">
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <div class="hotel">
+          <a href="#">
+            <img src="projet-2-openclassroom\image\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel des mouettes" class="image_hotel" />
+            <h3>Hôtel les mouettes</h3>
+            <p>Nuit à partir de 76<strong>€</strong></p>
+            <div class="etoiles">
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star grey" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <div class="hotel">
+          <a href="#">
+            <img src="projet-2-openclassroom\image\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel de la mer" class="image_hotel" />
+            <h3>Hôtel de la mer</h3>
+            <p>Nuit à partir de 46<strong>€</strong></p>
+            <div class="etoiles">
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star grey" aria-hidden="true"></i>
+              <i class="fas fa-star grey" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <div class="hotel">
+          <a href="#">
+            <img src="projet-2-openclassroom\image\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt=" l'auberge" class="image_hotel" />
+            <h3>Auberge le panier</h3>
+            <p>Nuit à partir de <strong>23€</strong></p>
+            <div class="etoiles">
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star grey" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <div class="hotel">
+          <a href="#">
+            <img src="projet-2-openclassroom\image\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="amina" class="image_hotel" />
+            <h3>Hôtel chez Amina</h3>
+            <p>Nuit à partir de 96<strong>€</strong></p>
+            <div class="etoiles">
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+              <i class="fas fa-star blue" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <a href="#" class="afficherplus">Afficher plus</a>
+      </article>
+    </section>
+
+    <!--partie les plus populaires-->
+    <article id="plus_populaires">
+      <div class="partie_plus_populaire">
+        <h2 class="titre_section_populaire">
+          Les plus populaires
+          <i class="fas fa-chart-line" aria-hidden="true"></i>
+        </h2>
+        <div class="hebergements_populaire">
+          <div class="hotel_populaires">
+            <a href="#">
+              <img src="projet-2-openclassroom\image\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel le soleil du matin"
+                class="image_populaire" />
+              <h3>Hôtel le soleil du matin</h3>
+              <p>Nuit à partir de 128<strong>€</strong></p>
+              <div class="etoiles_populaire">
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+              </div>
+            </a>
+          </div>
+          <div class="hotel_populaires">
+            <a href="#">
+              <img src="projet-2-openclassroom\image\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="hotel au coeur de l'eau" class="image_populaire" />
+              <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+              <p>Nuit à partir de 71<strong>€</strong></p>
+              <div class="etoiles_populaire">
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star grey" aria-hidden="true"></i>
+              </div>
+            </a>
+          </div>
+          <div class="hotel_populaires">
+            <a href="#">
+              <img src="projet-2-openclassroom\image\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="hotel bleu et blanc" class="image_populaire" />
+              <h3>Hôtel Tout Bleu et Blanc</h3>
+              <p>Nuit à partir de 68<strong>€</strong></p>
+              <div class="etoiles_populaire">
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star blue" aria-hidden="true"></i>
+                <i class="fas fa-star grey" aria-hidden="true"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!--Activités à Marseille-->
+    <section id="activites">
+      <div class="activitesmarseille">
+        <h2 class="titre_section_marseille" id="ancreActivites">
+          Activités à Marseille
+        </h2>
+        <div class="conteneur_activite">
+          <div class="bloc_activite activite">
+            <a href="#">
+              <img src="projet-2-openclassroom\image\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" class="activite1img" />
+              <div class="titre_section">
+                <h3>Vieux port</h3>
+              </div>
+            </a>
+          </div>
+          <div class="bloc_activite">
+            <div class="activite activite2">
+              <a href="#">
+                <img src="projet-2-openclassroom\image\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" class="activite2img" />
+                <div class="titre_section">
+                  <h3>Fort de Pomègue</h3>
+                </div>
+              </a>
+            </div>
+            <div class="activite activite3">
+              <a href="#">
+                <img src="projet-2-openclassroom\image\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="ile du frioul" class="activite3img" />
+                <div class="titre_section">
+                  <h3>Îles du Frioul</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="bloc_activite activite">
+            <a href="#">
+              <img src="projet-2-openclassroom\image\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc Calanques" class="activite4img" />
+              <div class="titre_section">
+                <h3>Parc National des Calanques</h3>
+              </div>
+            </a>
+          </div>
+          <div class="bloc_activite">
+            <div class="activite activite5">
+              <a href="#">
+                <img src="projet-2-openclassroom\image\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre Dame de la Garde" class="activite5img" />
+                <div class="titre_section">
+                  <h3>Notre-Dame-de-la-Garde</h3>
+                </div>
+              </a>
+            </div>
+            <div class="activite activite6">
+              <a href="#">
+                <img src="projet-2-openclassroom\image\lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp" class="activite6img" />
+                <div class="titre_section">
+                  <h3>Parc Longchamp</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--partie pied de page-->
+  <footer id="pied_page">
+    <div class="a_propos">
+      <h2 class="titre_apropos">A propos</h2>
+      <h4>Fonctionnement du site</h4>
+      <h4>Conditions générales de vente</h4>
+      <h4>Données et confidentialité</h4>
+    </div>
+    <div class="nos_hebergements">
+      <h2 class="titre_noshebergements">Nos hébergements</h2>
+      <h4>Charte qualité</h4>
+      <h4>Soumettre votre hôtel</h4>
+    </div>
+    <div class="assistance">
+      <h2 class="titre_assistance">Assistance</h2>
+      <h4>Centre d'aide</h4>
+      <h4>Nous contacter</h4>
+    </div>
+  </footer>
+</body>
+
+</html>
